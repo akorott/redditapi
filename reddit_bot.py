@@ -34,7 +34,7 @@ def select_quote():
     return quote_list[quote_today]
 
 while True:
-    for submission in subreddit.new(limit=100):
+    for submission in subreddit.new(limit=1000):
         all_authors = []
         if 'motivated' in submission.title or 'motivation' in submission.title or 'motivate' in submission.title:
             print(submission.title)
