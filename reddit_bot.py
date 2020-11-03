@@ -1,12 +1,15 @@
 import praw
 import random
 import time
+import os
 
 """
 Python Reddit API Wrapper - PRAW
 
 User: mister_good_bot
 """
+# set "client_id=nC9hMVXjUpykFA"
+# client_id=os.environ['client_id']
 
 # Instantiate a PRAW.Reddit object
 my_reddit_instance = praw.Reddit(
