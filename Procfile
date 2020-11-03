@@ -1,1 +1,1 @@
-web: python reddit_bot.py
+web: python reddit_bot_directory/reddit_bot.py
