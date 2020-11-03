@@ -8,16 +8,18 @@ Python Reddit API Wrapper - PRAW
 
 User: mister_good_bot
 """
-# set "client_id=nC9hMVXjUpykFA"
-# client_id=os.environ['client_id']
+# client_id="nC9hMVXjUpykFA",
+# client_secret="nHdGA_nrl1h3HGZT1kAnOTnRpG8i0g",
+# username="mister_good_bot",
+# password="zdarova",
 
 # Instantiate a PRAW.Reddit object
 my_reddit_instance = praw.Reddit(
-    client_id="nC9hMVXjUpykFA",
-    client_secret="nHdGA_nrl1h3HGZT1kAnOTnRpG8i0g",
-    user_agent="<console:mister_good_bot:1.0>",
-    password="zdarova",
-    username="mister_good_bot"
+    client_id=os.environ.get("client_id"),
+    client_secret=os.environ.get("client_secret"),
+    username=os.environ.get("reddit_username"),
+    password=os.environ.get("reddit_password"),
+    user_agent="<console:mister_good_bot:1.0>"
 )
 
 # Access a specific subreddit
