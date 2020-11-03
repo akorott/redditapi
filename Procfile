@@ -1,1 +1,1 @@
-worker: python redditapi.py
+worker: python reddit_bot.py
