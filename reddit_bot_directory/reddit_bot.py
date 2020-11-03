@@ -29,7 +29,7 @@ subreddit = my_reddit_instance.subreddit('selfimprovement')
 robot_speech = "boop boop beep - I'm the reddit inspirational quote bot. Quote of the day: \n"
 
 def select_quote():
-    test = open('quotes.txt')
+    test = open('../quotes.txt')
 
     quote_list = []
     for line in test:
