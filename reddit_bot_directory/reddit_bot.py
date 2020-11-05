@@ -5,13 +5,8 @@ import os
 
 """
 Python Reddit API Wrapper - PRAW
-
 User: mister_good_bot
 """
-# client_id="nC9hMVXjUpykFA",
-# client_secret="nHdGA_nrl1h3HGZT1kAnOTnRpG8i0g",
-# username="mister_good_bot",
-# password="zdarova",
 
 # Instantiate a PRAW.Reddit object
 my_reddit_instance = praw.Reddit(
