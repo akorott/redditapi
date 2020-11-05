@@ -1,1 +1,1 @@
-worker: python reddit_bot_directory/reddit_bot.py
+bot: python reddit_bot_directory/reddit_bot.py
