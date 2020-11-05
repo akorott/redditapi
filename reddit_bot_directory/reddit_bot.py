@@ -43,7 +43,7 @@ while True:
             if 'mister_good_bot' not in all_authors:
                 print(submission.title)
                 submission.reply(f'{robot_speech}\n{select_quote()}')
-    time.sleep(10)
+    time.sleep(30)
 
 
 
